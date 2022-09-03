@@ -38,6 +38,8 @@ dependencies:
   google_nav_bar: ^5.0.6
   font_awesome_flutter: ^10.1.0
   firebase_core: ^1.21.1
+  firebase_auth: ^3.7.0
+  shared_preferences: ^2.0.15
 
 dev_dependencies:
   flutter_test:
