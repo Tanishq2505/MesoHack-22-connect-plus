@@ -1,3 +1,5 @@
+import 'package:connect_plus/presentation/screens/messages_dashboard.dart';
+import 'package:connect_plus/presentation/screens/posts_dashboard.dart';
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:google_nav_bar/google_nav_bar.dart';
@@ -11,6 +13,13 @@ class MainDashboard extends StatefulWidget {
 
 class _MainDashboardState extends State<MainDashboard> {
   int _selectedIndex = 0;
+  List<Widget> _child = [
+    PostsDashboard(),
+    MessagesDashboard(),
+    Container(
+      color: Colors.purple,
+    )
+  ];
   onTabChange(int? index) {
     if (index != null) {
       _selectedIndex = index;
@@ -22,6 +31,7 @@ class _MainDashboardState extends State<MainDashboard> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      body: _child[_selectedIndex],
       backgroundColor: Colors.white,
       bottomNavigationBar: Padding(
         padding: const EdgeInsets.only(bottom: 8.0),
