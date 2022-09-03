@@ -3,7 +3,7 @@
 Official Entry of Team 404 FOUND , from SRM Institute of Science and Technology, Kattankulathur, India, to Mesohacks. <br>
  
 ![Collaborators](https://img.shields.io/badge/collaborators-2-red)
-![Status](https://img.shields.io/badge/status-done-green)
+![PyPI - Status](https://img.shields.io/pypi/status/done)
 ![Issues](https://img.shields.io/badge/issues-0-blue)
 [![made-with-Markdown](https://img.shields.io/badge/Made%20with-Markdown-1f425f.svg)](http://commonmark.org)
 
