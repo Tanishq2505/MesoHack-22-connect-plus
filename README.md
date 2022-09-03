@@ -33,8 +33,6 @@ Hence, this project, for people won’t be name-called and harassed just for bei
 ## PLAN OF ACTION 🚨
 On connect+, people from around the world can come, connect and talk to each other, tell about their surroundings and post stuff.
  
-## How the App Looks 🤜🔥🤛
-![Untitled design](https://user-images.githubusercontent.com/75165587/168473355-4953b97c-8d15-4376-bb2a-2414830e1924.png)
  
 ## How we built it 🔧
  
