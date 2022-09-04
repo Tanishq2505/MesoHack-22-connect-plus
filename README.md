@@ -46,8 +46,11 @@ Our solution uses a basic firebase backend to integrate the chat and post featur
  
 ## Challenges we ran into 🏃♂️
  
-1. `Map to Globe` was down for about 24 hours since the start of the hackathon, and looking for alternatives that could suffice our solution was a big challenge. 
- 
+1. Verification of genuine users and members of the community.
+2. Valid Authentication methods for real-time use.
+3. Data encryption and protection.
+4. Finding an API for the map feature.
+
 ## Accomplishments that we're proud of 🏅
 1. Data encryption and privacy.
 2. Data collection for location reviews.
